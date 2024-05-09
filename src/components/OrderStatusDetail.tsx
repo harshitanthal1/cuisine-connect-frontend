@@ -31,7 +31,7 @@ const OrderStatusDetail = ({ order }: Props) => {
       <Separator />
       <div className="flex flex-col">
         <span className="font-bold">Total</span>
-        <span>₹{(totalAmount / 100).toFixed(2)}</span>
+        <span>£{(totalAmount / 100).toFixed(2)}</span>
       </div>
     </div>
   );
